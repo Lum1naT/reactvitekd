@@ -1,9 +1,14 @@
-$color-red: #FF0000;
-$color-green: #00FF00;
-$color-blue: #0000FF;
+$color-primary: purple;
+$color-secondary: grey;
+$color-alert: orange;
+$color-success: green;
+$color-danger: red;
 
-body { background-color: $color-red; }
+body { background-color: $color-secondary; }
 
 .paperDefault{
-    padding: 10px;
+    padding: 20px;
+    p {
+    color: $color-alert;
+    }
 }

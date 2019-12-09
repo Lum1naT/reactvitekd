@@ -1,0 +1,7 @@
+body {
+  background-color: grey; }
+
+.paperDefault {
+  padding: 20px; }
+  .paperDefault p {
+    color: orange; }

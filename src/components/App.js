@@ -14,9 +14,14 @@ function App() {
   direction="row"
   justify="center"
   alignItems="center"
+  spacing={4}
 >
+
+
+<Grid item xs={4}>
+
 <Paper
-classname="paperDefault"
+className="paperDefault"
 >
 
       <header className="App-header">
@@ -34,6 +39,54 @@ classname="paperDefault"
         </a>
       </header>
       </Paper>
+      </Grid>
+
+      <Grid item xs={3}>
+
+      <Paper
+      className="paperDefault"
+      >
+
+            <header className="App-header">
+              <img src={logo} className="App-logo" alt="logo" />
+              <p>
+                Edit <code>src/App.js</code> and save to reload.
+              </p>
+              <a
+                className="App-link"
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Learn React
+              </a>
+            </header>
+            </Paper>
+            </Grid>
+
+            <Grid item xs={2}>
+
+            <Paper
+            className="paperDefault"
+            >
+
+                  <header className="App-header">
+                    <img src={logo} className="App-logo" alt="logo" />
+                    <p>
+                      Edit <code>src/App.js</code> and save to reload.
+                    </p>
+                    <a
+                      className="App-link"
+                      href="https://reactjs.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Learn React
+                    </a>
+                  </header>
+                  </Paper>
+                  </Grid>
+
       </Grid>
     </div>
   );
