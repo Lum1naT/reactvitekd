@@ -14,7 +14,7 @@ function App() {
   direction="row"
   justify="center"
   alignItems="center"
-  spacing={4}
+  spacing={3}
 >
 
 
