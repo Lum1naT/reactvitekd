@@ -18,7 +18,7 @@ function App() {
 >
 
 
-<Grid item xs={4}>
+<Grid item xs={12} sm={5}>
 
 <Paper
 className="paperDefault"
@@ -41,7 +41,7 @@ className="paperDefault"
       </Paper>
       </Grid>
 
-      <Grid item xs={3}>
+      <Grid item xs={12} sm={3}>
 
       <Paper
       className="paperDefault"
@@ -64,7 +64,7 @@ className="paperDefault"
             </Paper>
             </Grid>
 
-            <Grid item xs={2}>
+            <Grid item xs={12} sm={3}>
 
             <Paper
             className="paperDefault"
