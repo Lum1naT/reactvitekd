@@ -3,7 +3,7 @@ import logo from '../logo.svg';
 import '../assets/styles/css/App.css';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import MainAppBar from '/MainAppBar.js';
+import MainAppBar from './MainAppBar.js';
 
 
 function App() {
