@@ -9,6 +9,7 @@ import MainAppBar from '/MainAppBar.js';
 function App() {
   return (
     <div className="App">
+    <MainAppBar/>
     <Grid
   container
   direction="row"
