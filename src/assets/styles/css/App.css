@@ -1,5 +1,7 @@
 body {
-  background-color: grey; }
+  background-color: grey;
+margin: 0 auto;
+}
 
 .paperDefault {
   padding: 20px; }
