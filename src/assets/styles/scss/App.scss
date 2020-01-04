@@ -4,10 +4,11 @@ $color-alert: orange;
 $color-success: green;
 $color-danger: red;
 
-body { background-color: $color-secondary; }
+body { background-color: $color-primary; }
 
 .paperDefault{
     padding: 20px;
+    background-color: $color-secondary;
     p {
     color: $color-alert;
     }
