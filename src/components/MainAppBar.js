@@ -26,6 +26,12 @@ export default function MainAppBar() {
   return (
     <div className={classes.root}>
       <AppBar position="static" className="headerBar">
+      <script>
+      window.onscroll = () => {
+  const nav = document.querySelector('#App');
+  if(this.scrollY <= 10) #App.className = ''; else #App.className = 'scroll';
+};
+      </script>
         <Toolbar>
 <SvgIcon className="headerLogo">
         <Logo />
