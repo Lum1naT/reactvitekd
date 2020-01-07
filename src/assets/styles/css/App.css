@@ -1,10 +1,16 @@
 body {
+<<<<<<< HEAD
   background-color: grey;
   display: block;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px; }
+=======
+  background-color: purple;
+margin: 0 auto;
+}
+>>>>>>> 7aec870b14dca84287597e05639ecb7b794836c8
 
 .paperDefault {
   padding: 20px; }

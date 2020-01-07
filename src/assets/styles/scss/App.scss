@@ -4,6 +4,7 @@ $color-alert: orange;
 $color-success: green;
 $color-danger: red;
 
+<<<<<<< HEAD
 body { background-color: $color-secondary;
       display: block;
      margin-top: 0px;
@@ -12,9 +13,13 @@ body { background-color: $color-secondary;
      margin-left: 0px;
 
  }
+=======
+body { background-color: $color-primary; }
+>>>>>>> 7aec870b14dca84287597e05639ecb7b794836c8
 
 .paperDefault{
     padding: 20px;
+    background-color: $color-secondary;
     p {
     color: $color-alert;
     }
