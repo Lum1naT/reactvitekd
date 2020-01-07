@@ -4,13 +4,9 @@ $color-alert: orange;
 $color-success: green;
 $color-danger: red;
 
-body { background-color: $color-primary; 
+body { background-color: $color-primary;
       display: block;
-     margin-top: 0px;
-     margin-right: 0px;
-     margin-bottom: 0px;
-     margin-left: 0px;
-
+     margin: 0px;
  }
 
 .paperDefault{
