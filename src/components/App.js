@@ -3,29 +3,19 @@ import logo from '../logo.svg';
 import '../assets/styles/css/App.css';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-<<<<<<< HEAD
 import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import AppBar from '@material-ui/core/AppBar';
-
-
-
-
-=======
 import MainAppBar from './MainAppBar.js';
->>>>>>> 7aec870b14dca84287597e05639ecb7b794836c8
 
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
 
 
 
-=======
     <MainAppBar/>
->>>>>>> 7aec870b14dca84287597e05639ecb7b794836c8
     <Grid
   container
   direction="row"
