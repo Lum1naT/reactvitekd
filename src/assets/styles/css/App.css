@@ -10,6 +10,5 @@ body {
     color: orange; }
 
 .headerLogo {
-  height: 80px !important;
-  width: 150px !important;
-  background-color: purple; }
+  height: 0.7em !important;
+  width: 1.5em !important; }
