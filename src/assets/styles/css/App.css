@@ -8,3 +8,7 @@ body {
   background-color: grey; }
   .paperDefault p {
     color: orange; }
+  .paperDefault .app-logo {
+    height: 50%;
+    width: 50%;
+    background-color: purple; }
