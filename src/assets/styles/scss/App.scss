@@ -4,7 +4,7 @@ $color-alert: orange;
 $color-success: green;
 $color-danger: red;
 
-body { background-color: rgba(255, 255, 255, 0);
+body { background-color: $color-primary;
       display: block;
      margin: 0px;
  }
@@ -20,4 +20,8 @@ body { background-color: rgba(255, 255, 255, 0);
 .headerLogo{
   height: 5rem !important;
   width: 10rem !important;
+}
+
+.MainAppBar{
+  background-color: rgba(255, 255, 255, 0);
 }

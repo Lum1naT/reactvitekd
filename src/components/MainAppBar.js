@@ -25,7 +25,7 @@ export default function MainAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className="MainAppBar">
         <Toolbar>
 <SvgIcon className="headerLogo">
         <Logo />

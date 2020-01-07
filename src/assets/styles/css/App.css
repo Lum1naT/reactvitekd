@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: purple;
   display: block;
   margin: 0px; }
 
@@ -12,3 +12,6 @@ body {
 .headerLogo {
   height: 5rem !important;
   width: 10rem !important; }
+
+.MainAppBar {
+  background-color: rgba(255, 255, 255, 0); }
