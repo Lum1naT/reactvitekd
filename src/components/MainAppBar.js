@@ -27,7 +27,7 @@ export default function MainAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-<SvgIcon>
+<SvgIcon className="headerLogo">
         <Logo />
 </SvgIcon>
           <Button color="inherit">Login</Button>

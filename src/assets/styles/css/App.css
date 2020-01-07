@@ -9,7 +9,7 @@ body {
   .paperDefault p {
     color: orange; }
 
-#SolvLogoWhite {
+.headerLogo {
   height: 300px;
   width: 300px;
   background-color: purple; }
