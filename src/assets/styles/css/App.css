@@ -8,7 +8,8 @@ body {
   background-color: grey; }
   .paperDefault p {
     color: orange; }
-  .paperDefault #SolvLogoWhite {
-    height: 50%;
-    width: 50%;
-    background-color: purple; }
+
+#SolvLogoWhite {
+  height: 50%;
+  width: 50%;
+  background-color: purple; }
