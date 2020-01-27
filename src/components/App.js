@@ -42,13 +42,11 @@ className="paperDefault"
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        <Router>
         <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/contact' component={Contact} />
             <Route path='/about' component={About} />
         </Switch>
-        </Router>
                 </p>
         <a
           className="App-link"
