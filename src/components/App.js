@@ -1,5 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Home from './Home.js';
+import About from './About.js';
+import Contact from './Contact.js';
 import logo from '../logo.svg';
 import '../assets/styles/css/App.css';
 import Grid from '@material-ui/core/Grid';
