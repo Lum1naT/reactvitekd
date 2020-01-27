@@ -35,7 +35,6 @@ export default function MainAppBar() {
 <SvgIcon className="headerLogo">
         <Logo />
 </SvgIcon>
-<Router>
        <div>
          <ul className="navbar-nav mr-auto">
            <li><Link to={'/'} className="nav-link"> Home </Link></li>
@@ -44,7 +43,6 @@ export default function MainAppBar() {
          </ul>
 
        </div>
-     </Router>
         </Toolbar>
       </AppBar>
     </div>
