@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/styles/css/App.css';
 import App from './components/App';
-import MyAppBar from './components/MyAppBar';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('App'));
