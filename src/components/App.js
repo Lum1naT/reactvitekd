@@ -5,16 +5,9 @@ import About from './About.js';
 import Contact from './Contact.js';
 import logo from '../logo.svg';
 import '../assets/styles/css/App.css';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import AppBar from '@material-ui/core/AppBar';
 import MainAppBar from './MainAppBar.js';
-
-
-
-import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
