@@ -74,6 +74,9 @@ function App() {
   return (
     <div className="App">
 
+    <MainAppBar/>
+
+
 
       <Grid container component="main" className={classes.root}>
         <CssBaseline />
@@ -142,7 +145,6 @@ function App() {
         </Grid>
       </Grid>
 
-    <MainAppBar/>
 
 
 
