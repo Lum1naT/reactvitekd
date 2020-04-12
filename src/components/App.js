@@ -104,7 +104,7 @@ className="paperDefault"
         <p>
         <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/home' component={Home} />
+        <Route path='/home' component={Home} />
             <Route path='/contact' component={Contact} />
             <Route path='/about' component={About} />
         </Switch>
