@@ -103,7 +103,8 @@ className="paperDefault"
         <img src={logo} className="App-logo" alt="logo" />
         <p>
         <Switch>
-            <Route exact path='/' component={Home} />
+        <Route exact path='/' component={Home} />
+        <Route exact path='/home' component={Home} />
             <Route path='/contact' component={Contact} />
             <Route path='/about' component={About} />
         </Switch>
