@@ -17,6 +17,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -104,7 +105,6 @@ className="paperDefault"
         <p>
         <Switch>
         <Route exact path='/' component={Home} />
-        <Route path='/home' component={Home} />
             <Route path='/contact' component={Contact} />
             <Route path='/about' component={About} />
         </Switch>
@@ -119,6 +119,15 @@ className="paperDefault"
         </a>
       </header>
       </Paper>
+      <Breadcrumbs separator="›" aria-label="breadcrumb">
+        <Link color="inherit" href="/about" onClick={handleClick}>
+          About
+        </Link>
+        <Link color="inherit" href="/contact" onClick={handleClick}>
+          Contact
+        </Link>
+        <Typography color="textPrimary">Home</Typography>
+      </Breadcrumbs>
       </Grid>
 
       <Grid item xs={12} sm={3}>
