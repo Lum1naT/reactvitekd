@@ -66,7 +66,7 @@ const useStyles = makeStyles(theme => ({
   },
   MainAppBar: {
     position: 'fixed',
-    background: theme.palette.purple,
+    background: '#4D94FF',
   }
 }));
 
