@@ -11,8 +11,16 @@ class Contact extends Component {
 
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
-},
+};
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '100%',
+    '& > * + *': {
+      marginTop: theme.spacing(2),
+    },
+  },
+}));
 
 export default function CustomizedSnackbars() {
   const classes = useStyles();
