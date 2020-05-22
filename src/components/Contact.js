@@ -8,10 +8,20 @@ class Contact extends Component {
   render() {
     return (
 
+      const useStyles = makeStyles(theme => ({
+        root: {
+          width: '100%',
+          '& > * + *': {
+            marginTop: theme.spacing(2),
+          },
+        },
+      }));
 
 function Alert(props) {
   return (<MuiAlert elevation={6} variant="filled" {...props} />);
 },
+
+
 
 
 export default function CustomizedSnackbars() {
