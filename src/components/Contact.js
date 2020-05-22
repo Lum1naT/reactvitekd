@@ -11,7 +11,7 @@ class Contact extends Component {
 
 function Alert(props) {
   return (<MuiAlert elevation={6} variant="filled" {...props} />);
-}
+},
 
 
 export default function CustomizedSnackbars() {
