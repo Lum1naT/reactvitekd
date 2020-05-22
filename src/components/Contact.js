@@ -10,10 +10,10 @@ class Contact extends Component {
 
 
 function Alert(props) {
-  return <MuiAlert elevation={6} variant="filled" {...props} />;
-}
+  return (<MuiAlert elevation={6} variant="filled" {...props} />);
+},
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   root: {
     width: '100%',
     '& > * + *': {
