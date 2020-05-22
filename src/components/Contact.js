@@ -5,17 +5,19 @@ import MuiAlert from '@material-ui/lab/Alert';
 import { makeStyles } from '@material-ui/core/styles';
 
 class Contact extends Component {
+
+
+        const useStyles = makeStyles(theme => ({
+          root: {
+            width: '100%',
+            '& > * + *': {
+              marginTop: theme.spacing(2),
+            },
+          },
+        }));
   render() {
     return (
 
-      const useStyles = makeStyles(theme => ({
-        root: {
-          width: '100%',
-          '& > * + *': {
-            marginTop: theme.spacing(2),
-          },
-        },
-      }));
 
 function Alert(props) {
   return (<MuiAlert elevation={6} variant="filled" {...props} />);
