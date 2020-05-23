@@ -7,16 +7,8 @@ import { makeStyles } from '@material-ui/core/styles';
 class Contact extends Component {
 
 
-        const useStyles = makeStyles(theme => ({
-          root: {
-            width: '100%',
-            '& > * + *': {
-              marginTop: theme.spacing(2),
-            },
-          },
-        }));
-  render() {
-    return (
+render() {
+return (
 
 
 function Alert(props) {
