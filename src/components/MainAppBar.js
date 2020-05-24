@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { ReactComponent as Logo } from '../assets/svgs/SolvLogoWhite.svg';
+import { ReactComponent as Logo } from '../assets/svgs/logofirst.svg';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './Home.js';
 import About from './About.js';
